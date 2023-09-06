@@ -1,7 +1,7 @@
-[submodule "Software-Designer"]
+[submodule "docs/Software-Designer"]
 	path = docs/Software-Designer
 	url = https://github.com/aquarkgn/Software-Designer.git
 
-[submodule "architectural-designer"]
+[submodule "docs/architectural-designer"]
 	path = docs/architectural-designer
 	url = https://github.com/aquarkgn/architectural-designer.git
