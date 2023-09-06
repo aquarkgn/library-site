@@ -20,7 +20,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Editor directories and files
-/docs/architectural-decigner
+/docs/architectural-designer
+/docs/Software-Designer
 
 
 
