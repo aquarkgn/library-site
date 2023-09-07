@@ -31,9 +31,11 @@ const config = {
     defaultLocale: 'en',
     locales: ['en','fr','zh-CN'],
   },
+
   plugins: [
-    '@docusaurus/plugin-search-local',
+    '@easyops-cn/docusaurus-search-local',
   ],
+
   presets: [
     [
       'classic',
