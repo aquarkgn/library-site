@@ -31,7 +31,9 @@ const config = {
     defaultLocale: 'en',
     locales: ['en','fr','zh-CN'],
   },
-
+  plugins: [
+    '@docusaurus/plugin-search-local',
+  ],
   presets: [
     [
       'classic',
