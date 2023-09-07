@@ -23,5 +23,9 @@ yarn-error.log*
 /docs/architectural-designer
 /docs/Software-Designer
 
+# idea files
+.idea
+.vscode
+.history
 
 
