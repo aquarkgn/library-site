@@ -12,8 +12,8 @@ git-update:
 
 # 运行 docker-compose
 docker-compose-up:
-	docker-compose up -d
+	docker compose up -d
 
 # 停止 docker-compose
 docker-compose-down:
-	docker-compose down
+	docker compose down
