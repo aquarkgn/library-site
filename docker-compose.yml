@@ -1,0 +1,11 @@
+version: '3'
+services:
+  docusaurus:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app/library-site
+    ports:
+      - 3000:3000
+    command: cd /app/library-site && yarn build && yarn serve
