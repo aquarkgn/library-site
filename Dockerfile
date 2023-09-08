@@ -12,4 +12,4 @@ RUN npx create-docusaurus@latest my-website classic
 
 RUN rm -rf $WORKDIR/my-website
 
-ENTRYPOINT ["/bin/sh"]
+ENTRYPOINT ["/bin/sh" , "-c"]
