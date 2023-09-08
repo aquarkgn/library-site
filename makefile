@@ -1,4 +1,4 @@
-PROJECT_PATH = $(shell pwd)
+PROJECT_PATH = $(shell dirname $(abspath $(lastword $(MAKEFILE_LIST))))
 
 # 启动项目
 start: git-update docker-compose-up
