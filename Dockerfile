@@ -10,5 +10,3 @@ WORKDIR /app
 RUN npx create-docusaurus@latest my-website classic
 
 RUN rm -rf $WORKDIR/my-website
-
-CMD ["/bin/bash"]

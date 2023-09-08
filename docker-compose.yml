@@ -3,7 +3,6 @@ services:
   docusaurus:
     image: nolanatom/docusaurus:latest
     volumes:
-      - .:/app/library-site
+      - .:/app
     ports:
       - 3000:3000
-    command: cd /app/library-site && yarn build && yarn serve
