@@ -1,5 +1,6 @@
 # 使用基础的 Node.js 镜像作为基础制作docusaurus镜像
 # docker build --no-cache -t nolanatom/docusaurus:latest .
+# docker build -t nolanatom/docusaurus:latest .
 # docker push nolanatom/docusaurus:latest
 FROM node:18-alpine
 
