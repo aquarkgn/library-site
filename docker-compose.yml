@@ -1,9 +1,7 @@
 version: '3'
 services:
   docusaurus:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: nolanatom/docusaurus:latest
     volumes:
       - .:/app/library-site
     ports:
