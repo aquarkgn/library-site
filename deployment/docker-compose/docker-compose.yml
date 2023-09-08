@@ -1,0 +1,9 @@
+version: '3'
+services:
+  docusaurus:
+    image: docusaurus/init
+    volumes:
+      - ../../:/app/website
+    ports:
+      - 3000:3000
+    command: yarn build && yarn serve
