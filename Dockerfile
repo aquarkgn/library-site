@@ -10,6 +10,7 @@ WORKDIR /app
 # 构建静态网站
 RUN npx create-docusaurus@latest my-website classic
 
-RUN rm -rf $WORKDIR/my-website
+# 安装依赖
+RUN npm install --global @docusaurus/core
 
 ENTRYPOINT ["/bin/sh" , "-c"]
