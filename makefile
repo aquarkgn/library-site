@@ -17,3 +17,7 @@ docker-compose-up:
 # 停止 docker-compose
 docker-compose-down:
 	docker compose down
+
+# 本地运行
+local-run:
+	npx docusaurus start

@@ -8,9 +8,8 @@ FROM node:18-alpine
 WORKDIR /app
 
 # 构建静态网站
-RUN npx create-docusaurus@latest my-website classic
+RUN npx -y create-docusaurus@latest my-website classic \
 
-# 安装依赖
-RUN npm install --global @docusaurus/core
+RUN rm -rf /app/my-website
 
 ENTRYPOINT ["/bin/sh" , "-c"]
