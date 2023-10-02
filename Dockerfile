@@ -8,8 +8,6 @@ FROM node:18-alpine
 WORKDIR /app
 
 # 构建静态网站
-RUN npx -y create-docusaurus@latest my-website classic \
-
-RUN rm -rf /app/my-website
+RUN npm init docusaurus
 
 ENTRYPOINT ["/bin/sh" , "-c"]
